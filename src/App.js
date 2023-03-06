@@ -1,5 +1,7 @@
 import Header from "./components/Header";
 import AnimatedRoutes from "./components/AnimatedRoutes";
+import React, { Component }  from 'react';
+
 
 function App() {
   const personalDetails = {
