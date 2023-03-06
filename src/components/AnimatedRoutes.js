@@ -1,5 +1,5 @@
 import { Routes, Route, useLocation } from "react-router-dom";
-import React, { Component }  from 'react';
+import React from 'react';
 
 import Landing from "../pages/landing/Landing";
 import About from "../pages/about/About";

@@ -4,7 +4,7 @@ import SocialIcons from "../components/SocialIcons";
 import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
 import resume from "../pages/about/Richard-Sawh-Resume.pdf";
-import React, { Component }  from 'react';
+import React from 'react';
 
 const AboutMe = ({ name, email, location, availability, brand }) => {
   const [ref, inView] = useInView({
@@ -60,7 +60,7 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
               <div className="row">
                 <div className="col-12 col-md-6 info">
                   <span>Name:</span>
-                  <p>Michael Yeates</p>
+                  <p>Richard Sawh</p>
                 </div>
                 <div className="col-12 col-md-6 info">
                   <span>Email:</span>
