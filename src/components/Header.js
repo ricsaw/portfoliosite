@@ -1,5 +1,6 @@
 import NavLinks from "./NavLinks";
 import logo from "../images/logo.svg";
+import React, { Component }  from 'react';
 
 const Header = () => {
   return (

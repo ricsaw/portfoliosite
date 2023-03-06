@@ -3,6 +3,7 @@ import { useInView } from "react-intersection-observer";
 import Modal from "react-modal";
 import { useState } from "react";
 import closeModal from "../images/close.svg";
+import React, { Component }  from 'react';
 
 const Project = ({ technologies, title, image, color, id, github, deployed, description }) => {
   const [ref, inView] = useInView({

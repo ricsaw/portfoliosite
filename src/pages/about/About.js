@@ -1,5 +1,6 @@
 import AboutMe from "../../components/AboutMe";
 import PageHeader from "../../components/PageHeader";
+import React, { Component }  from 'react';
 
 const About = ({ name, location, brand, email, availability }) => {
   return (

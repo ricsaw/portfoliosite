@@ -1,3 +1,5 @@
+import React, { Component }  from 'react';
+
 const SocialIcons = () => {
     const styles = {
       icon: {

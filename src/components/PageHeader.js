@@ -1,3 +1,5 @@
+import React, { Component }  from 'react';
+
 const PageHeader = ({ title, description }) => (
     <>
       <p className="pageDescription">{description}</p>

@@ -1,5 +1,6 @@
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
+import React, { Component }  from 'react';
 
 const ContactInfo = ({ name, email, location }) => {
   const [ref, inView] = useInView({

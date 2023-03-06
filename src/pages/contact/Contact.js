@@ -2,6 +2,7 @@ import PageHeader from "../../components/PageHeader";
 import SocialIcons from "../../components/SocialIcons";
 import Form from "../../components/Form";
 import ContactInfo from "../../components/ContactInfo";
+import React, { Component }  from 'react';
 
 const Contact = ({ name, email, location }) => {
   return (

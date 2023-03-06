@@ -1,9 +1,10 @@
-import aboutMeImg from "../images/aboutme.jpeg";
+import aboutMeImg from "../images/aboutme.jpg";
 import { motion } from "framer-motion";
 import SocialIcons from "../components/SocialIcons";
 import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
 import resume from "../pages/about/Richard-Sawh-Resume.pdf";
+import React, { Component }  from 'react';
 
 const AboutMe = ({ name, email, location, availability, brand }) => {
   const [ref, inView] = useInView({
