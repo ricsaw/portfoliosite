@@ -2,11 +2,12 @@ import React from 'react';
 import Resume from '../../components/Resume';
 
 const ResumePage = () => {
+
     return (
-        <section className="resume">
-        <Resume />
-        </section>
+        <div className="resumePage">
+            <Resume />
+        </div>
     );
-    }
+}
     
 export default ResumePage;
