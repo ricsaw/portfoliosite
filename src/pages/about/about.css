@@ -26,7 +26,8 @@
    */
   .contentContainer {
     padding: 10px;
-    align-items: center;
+    /*align the text in the center*/
+    text-align: center;
   }
   
   .contentContainer h4 {
