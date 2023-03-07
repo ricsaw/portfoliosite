@@ -10,7 +10,7 @@
   .aboutContainer {
     border-bottom: 1px solid var(--grey);
   }
-/*   
+  
   .personalImage {
     display: flex;
     justify-content: center;
@@ -23,7 +23,7 @@
     border-radius: 250px;
     border: 1px solid var(--grey);
   }
-   */
+  
   .contentContainer {
     padding: 10px;
   }
@@ -105,7 +105,7 @@
       margin-right: 10px;
     }
   }
-  
+/*   
   @media (min-width: 992px) {
     .personalImage img {
       height: 330px;
@@ -121,4 +121,4 @@
       align-items: center;
       justify-content: center;
     }
-  }
+  } */
