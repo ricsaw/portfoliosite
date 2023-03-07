@@ -27,7 +27,10 @@
   .contentContainer {
     padding: 10px;
     /*align the text in the center*/
-    text-align: center;
+    align-self: center;
+    /*width of the text container*/
+    width: 100%;
+    
   }
   
   .contentContainer h4 {
