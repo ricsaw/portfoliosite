@@ -67,7 +67,7 @@ const Landing = ({ name, tagline }) => {
           {tagline}
         </motion.p>
       </div>
-      <div className="image-container">
+      {/* <div className="image-container">
         <motion.img
           className="landingImage"
           ref={ref}
@@ -78,7 +78,7 @@ const Landing = ({ name, tagline }) => {
           src={landingImage}
           alt=""
         />
-      </div>
+      </div> */}
 
       <SocialIcons />
     </section>
