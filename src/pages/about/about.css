@@ -29,7 +29,7 @@
     flex-direction: column;
     align-items: left;
     margin-top: var(--spacing);
-    align-self: center;
+    align-content: center;
   }
   
   .contentContainer h4 {
