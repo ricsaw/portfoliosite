@@ -98,13 +98,7 @@ header {
 }
 
 .logo {
-  height: 60px;
-}
-
-.resume {
-  font-size: 14px;
-  color: var(--secondary-text-color);
-  text-decoration: none;
+  height:100px;
 }
 
 .links {
