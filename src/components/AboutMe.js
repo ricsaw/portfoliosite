@@ -33,7 +33,7 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
 
   return (
     <div className="aboutContainer container">
-      <div className="row">
+      <div className="row" style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}>
         {/* <motion.div
           className="personalImage col-12 col-lg-4"
           ref={ref}
