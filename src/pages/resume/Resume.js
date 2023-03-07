@@ -3,9 +3,7 @@ import Resume from '../../components/Resume';
 
 const ResumePage = () => {
     return (
-        <section className="resume">
-            <Resume />
-        </section>
+        <Resume />
     );
 }
     

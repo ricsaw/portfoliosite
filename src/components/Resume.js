@@ -6,8 +6,8 @@ import React from 'react';
 const Resume = () => {
     return (
         <div className="resume">
-            <img src={require(image1, alt="resume")} />
-            <img src={require(image2, alt="resume")} />
+            <img className='resume' src={image1} alt="resume" />
+            <img className='resume' src={image2} alt="resume" />
 
         </div>
 
