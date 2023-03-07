@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import landingImage from "../../images/me.jpg";
+// import landingImage from "../../images/me.jpg";
 import SocialIcons from "../../components/SocialIcons";
 import React from 'react';
 
