@@ -62,6 +62,15 @@ body {
 }
 
 .socialIcons .icon {
+  /* place the icons on the right side of the page */
+  position: absolute;
+  right: 0px;
+  /* place the icons on the bottom of the page */
+  bottom: 0px;
+  /* add some space between the icons */
+  margin: 0 10px;
+  /* add some space between the icons and the edge of the page */
+  padding: 0 10px;
   color: var(--text-color);
 }
 
