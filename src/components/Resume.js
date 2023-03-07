@@ -1,25 +1,17 @@
-// import resume from "../pages/resume/Richard-Sawh-Resume.pdf";
+import image1 from '../images/0001.jpg';
+import image2 from '../images/0002.jpg';
 import React from 'react';
-import { Document, Page } from 'react-pdf';
 
-function Resume() {
-    const [numPages, setNumPages] = useState(null);
-    const [pageNumber, setPageNumber] = useState(1);
-  
-    function onDocumentLoadSuccess({ numPages }) {
-      setNumPages(numPages);
-    }
-  
+//display the two images
+const Resume = () => {
     return (
-      <div>
-        <Document file="/pages/resume/Richard-Sawh-Resume.pdf" onLoadSuccess={onDocumentLoadSuccess}>
-          <Page pageNumber={pageNumber} />
-        </Document>
-        <p>
-          Page {pageNumber} of {numPages}
-        </p>
-      </div>
+        <div className="resume">
+            <img src={image1} alt="resume" />
+            <img src={image2} alt="resume" />
+
+        </div>
+
     );
-  }
+}
 
 export default Resume;

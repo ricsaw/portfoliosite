@@ -2,11 +2,10 @@ import React from 'react';
 import Resume from '../../components/Resume';
 
 const ResumePage = () => {
-
     return (
-        <div className="resumePage">
+        <section className="resume">
             <Resume />
-        </div>
+        </section>
     );
 }
     
