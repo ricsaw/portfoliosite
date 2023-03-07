@@ -26,6 +26,7 @@
    */
   .contentContainer {
     padding: 10px;
+    align-items: center;
   }
   
   .contentContainer h4 {
