@@ -19,6 +19,7 @@
     flex-direction: column;
     padding: 0 !important;
     cursor: pointer;
+    align-items: center;
   }
   
   .row {
