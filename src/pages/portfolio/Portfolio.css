@@ -35,12 +35,12 @@
     text-decoration: none;
   }
   
-  .imageContainer img {
+  /* .imageContainer img {
     height: 12em;
     margin-top: 25px;
     transition: all 1.3s ease-in-out;
   }
-  
+   */
   .tech {
     font-size: 12px;
     white-space: nowrap;
@@ -104,11 +104,11 @@
       padding-left: var(--spacing);
       padding-right: var(--spacing);
     }
-  
+/*   
     .imageContainer {
       transform: translateX(30%);
       transition: all 0.3s ease-in-out;
-    }
+    } */
   
     .projectCard:hover .imageContainer {
       transform: translateX(-70%);
@@ -125,11 +125,11 @@
     .projectCard:hover .imageContainer img {
       scale: 1.4;
     }
-  
+/*   
     .imageContainer {
       transform: translateX(30%);
       transition: all 0.3s ease-in-out;
-    }
+    } */
   
     .textWrap {
       text-shadow: none;
