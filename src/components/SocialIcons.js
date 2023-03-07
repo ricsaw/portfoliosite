@@ -3,7 +3,11 @@ import React from 'react';
 const SocialIcons = () => {
     const styles = {
       icon: {
-        alignItems: "right",
+        //put the socialicons on the right side of the page at the bottom
+        position: "absolute",
+        right: "0",
+        bottom: "0",
+        margin: "10px",
         textDecoration: "none",
         fontSize: "22px",
         padding: "10px",
