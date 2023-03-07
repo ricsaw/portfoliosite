@@ -5,7 +5,7 @@ import React from 'react';
 const About = ({ name, location, brand, email, availability }) => {
   return (
     <section className="about">
-      <PageHeader title="About Me" description="Let me introduce myself" />
+      <PageHeader title="About Me" description="Introduction" />
       <AboutMe name={name} location={location} brand={brand} email={email} availability={availability} />
     </section>
   );
