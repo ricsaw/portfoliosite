@@ -2,11 +2,12 @@ import resume from "../pages/about/Richard-Sawh-Resume.pdf";
 import React from 'react';
 
 const Resume = () => {
+    //show the resume pdf
     return (
-        <section className="resume">
-            <a href={resume} target="_blank" rel="noreferrer">Resume</a>
-        </section>
+        <div className="resume">
+            <iframe src={resume} title="resume" width="100%" height="100%"></iframe>
+        </div>
     );
-    }
+};
 
 export default Resume;
