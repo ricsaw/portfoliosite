@@ -9,6 +9,9 @@
   
   .aboutContainer {
     border-bottom: 1px solid var(--grey);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   /* .personalImage {
@@ -27,12 +30,8 @@
   .contentContainer {
     padding: 10px;
     display: flex;
-    /*align in the center*/
-    align-items: center;
-    /*justify in the center*/
-    justify-content: center;
     flex-direction: column;
-
+    align-items: center;
   }
   
   .contentContainer h4 {
