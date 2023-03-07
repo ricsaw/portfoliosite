@@ -3,6 +3,7 @@ import React from 'react';
 const SocialIcons = () => {
     const styles = {
       icon: {
+        alignItems: "right",
         textDecoration: "none",
         fontSize: "22px",
         padding: "10px",
