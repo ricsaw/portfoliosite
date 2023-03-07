@@ -26,8 +26,7 @@
    */
   .contentContainer {
     padding: 10px;
-    margin-bottom: var(--spacing);
-
+    margin: auto;
   }
   
   .contentContainer h4 {
