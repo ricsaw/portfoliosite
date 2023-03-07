@@ -26,11 +26,13 @@
    */
   .contentContainer {
     padding: 10px;
-    /*align the text in the center*/
-    align-self: center;
-    /*width of the text container*/
-    width: 100%;
-    
+    display: flex;
+    /*align in the center*/
+    align-items: center;
+    /*justify in the center*/
+    justify-content: center;
+    flex-direction: column;
+
   }
   
   .contentContainer h4 {
