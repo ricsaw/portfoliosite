@@ -101,6 +101,12 @@ header {
   height: 60px;
 }
 
+.resume {
+  font-size: 14px;
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+
 .links {
   display: none;
   position: absolute;
