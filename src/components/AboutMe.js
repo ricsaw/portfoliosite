@@ -51,8 +51,8 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
           transition={{ duration: 0.4, ease: "easeInOut" }}
         >
           <div className="contentContainer">
-            <h4>Nice to meet you</h4>
-            <h5>Frontend Web Developer who creates amazing digital experiences!</h5>
+            <h4>Greetings</h4>
+            <h5>Full Stack Developer</h5>
             <div className="contentDescription">
               <p>{brand}</p>
             </div>

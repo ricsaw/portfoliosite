@@ -26,7 +26,7 @@
    */
   .contentContainer {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
     align-items: left;
     margin-top: var(--spacing);
     justify-content: center;

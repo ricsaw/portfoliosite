@@ -62,7 +62,6 @@ body {
 }
 
 .socialIcons .icon {
-  align-items: right;
   color: var(--text-color);
 }
 
