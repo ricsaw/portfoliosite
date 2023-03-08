@@ -16,7 +16,7 @@ const ContactInfo = ({ name, email, location }) => {
       transition={{ duration: 0.4, ease: "easeInOut" }}
     >
       <h4 className="contentTitle">Contact Information</h4>
-      <p className="infoDescription">Open for opportunities. Let's connect and build something awesome together! </p>
+      <p className="infoDescription">Open for opportunities. I would love to connect with anyone who shares a passion for technology or is interested in collaborating on a project together! </p>
       <ul className="listInfo">
         <li>
           <div className="personalContactInfo">

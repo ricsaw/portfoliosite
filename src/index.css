@@ -3,7 +3,7 @@
 /* --- VARIABLES --- */
 :root {
   --bg-color: #101010;
-  --hl-color: #5865f2;
+  --hl-color:rgb(243, 119, 55);;
   --text-color: #f3f3f3;
   --secondary-text-color: #9f9f9f;
   --grey: #9f9f9f76;
@@ -62,12 +62,12 @@ body {
 }
 
 .socialIcons .icon {
-  color: var(--text-color);
+  color: rgb(243, 119, 55);;
 }
 
 .socialIcons .icon:hover {
   scale: 1.2;
-  color: var(--hl-color);
+  color: rgb(243, 119, 55);;
 }
 
 .btn {
