@@ -27,7 +27,7 @@ const Project = ({ technologies, title, image, color, id, github, deployed, desc
       ref={ref}
       className="col-sm-12 col-lg-6"
       variants={variants}
-      initial="hidden"
+      initial={false}
       animate={inView ? "visible" : "hidden"}
       transition={{ duration: 0.4, ease: "easeInOut" }}
     >
@@ -43,9 +43,9 @@ const Project = ({ technologies, title, image, color, id, github, deployed, desc
           <h3 className="projectTitle">{title}</h3>
           <span className="viewWork" >View Work &#8594;</span>
         </div>
-        {/* <div className="imageContainer col-6 d-flex align-items-center justify-content-center">
+        <div className="imageContainer col-6 d-flex align-items-center justify-content-center">
           <img src={image} alt="Laptop displaying application" />
-        </div> */}
+        </div>
       </div>
       <Modal
         isOpen={showModal}
