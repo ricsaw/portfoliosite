@@ -34,14 +34,5 @@
       "github": "https://www.maroontribune.org/2020/01/robotics-team-wins-cliffhanger/",
       "bgcolor": "#f37737",
       "id": "4"
-    },
-    {
-      "title": "Fitness Tracking Application",
-      "image": "https://i.imgur.com/2JjOeed.jpg",
-      "description": "Currently working on a fitness tracking application that works in a similar way to MyFitnessPal but follows an ad-based model and provides a chatbot to help users with their fitness goals.",
-      "technologies": "Java | React Native | Android Studio | Firebase",
-      "github": "https://drive.google.com/file/d/1tT_C1Z9iQUT-RaBcGty5vRKBRgNTgKoR/view?usp=sharing",
-      "bgcolor": "#f37737",
-      "id": "5"
     }
   ]
