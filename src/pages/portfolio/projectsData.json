@@ -1,12 +1,21 @@
 [
     {
+      "title": "Facial Recognition",
+      "image": "https://imgur.com/a/4iDyEMl",
+      "description": "A simple OpenCV and PyTorch based Object and Face Detection system that is locally hosted and can be used to detect objects and faces in pictures.",
+      "technologies": "Bootstrap | OpenCV | PyTorch",
+      "github": "https://github.com/ricsaw/imageRec",
+      "bgcolor": "#f37737",
+      "id": "1"
+    },
+    {
       "title": "Stock Prediction Utility",
       "image": "https://i.imgur.com/TI3QSLd.png",
       "description": "This is an application that recieves the ticker from the user and predicts the future price of the stock using a machine learning model. The model is trained on the historical data of the stock. The user can also see the historical data of the stock in the form of a candlestick chart.",
       "technologies": "Python | Pandas | Numpy",
       "github": "https://github.com/ricsaw/predictionToolv2",
       "bgcolor": "#f37737",
-      "id": "1"
+      "id": "2"
     },
     {
       "title": "Food Purchasing Website",
@@ -15,7 +24,7 @@
       "technologies": "Java | RESTful | Angular",
       "github": "https://github.com/ricsaw/261website",
       "bgcolor": "#f37737",
-      "id": "2"
+      "id": "3"
     },
     {
       "title": "OCR Glasses",
@@ -24,7 +33,7 @@
       "technologies": "C++",
       "github": "https://docs.google.com/document/d/1bNaJyl_t8mzhiw8BJR5ui7qXCDx0q9Zu37Fqdd9WX3c/edit?usp=sharing",
       "bgcolor": "#f37737",
-      "id": "3"
+      "id": "4"
     },
     {
       "title": "Robotics",
@@ -33,6 +42,6 @@
       "technologies": "Java | Electrical Engineering | Mechanical Engineering",
       "github": "https://www.maroontribune.org/2020/01/robotics-team-wins-cliffhanger/",
       "bgcolor": "#f37737",
-      "id": "4"
+      "id": "5"
     }
   ]
