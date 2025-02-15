@@ -1,7 +1,7 @@
 [
     {
       "title": "Facial Recognition",
-      "image": "https://imgur.com/a/4iDyEMl",
+      "image": "https://i.imgur.com/7MH7pJ4.png",
       "description": "A simple OpenCV and PyTorch based Object and Face Detection system that is locally hosted and can be used to detect objects and faces in pictures.",
       "technologies": "Bootstrap | OpenCV | PyTorch",
       "github": "https://github.com/ricsaw/imageRec",
