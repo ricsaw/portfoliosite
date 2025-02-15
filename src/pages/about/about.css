@@ -3,19 +3,30 @@
 .about {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; /* Ensures content is centered */
+  justify-content: center; /* Aligns content vertically */
+  text-align: center; /* Centers inline text elements */
+  width: 100%;
   margin-top: var(--spacing);
 }
 
 .aboutContainer {
+  width: 100%;
+  max-width: 800px; /* Adjust based on layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the AboutMe component */
+  justify-content: center;
   border-bottom: 1px solid var(--grey);
+  padding-bottom: var(--spacing);
 }
 
 /* Layout & Alignment */
 .contentContainer {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center; /* Aligns AboutMe in the center */
+  text-align: center;
   margin-top: var(--spacing);
 }
 
@@ -121,4 +132,12 @@
       align-items: center;
       justify-content: center;
   }
+}
+
+/* Parent container for AboutMe */
+.parentContainer {
+  display: flex;
+  justify-content: center; /* Ensures horizontal centering */
+  align-items: center; /* Ensures vertical centering */
+  width: 100%;
 }
