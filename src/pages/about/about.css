@@ -1,105 +1,100 @@
 /* --- MOBILE STYLES --- */
 
 .about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: var(--spacing);
-  }
-  
-  .aboutContainer {
-    border-bottom: 1px solid var(--grey);
-  }
-  
-  /* .personalImage {
-    display: flex;
-    justify-content: center;
-    margin-bottom: var(--spacing);
-  }
-  
-  .personalImage img {
-    height: 250px;
-    z-index: 50;
-    border-radius: 250px;
-    border: 1px solid var(--grey);
-  }
-   */
-  .contentContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    margin-top: var(--spacing);
-  }
-  
-  .contentContainer h4 {
-    color: var(--hl-color);
-    font-size: 18px;
-    font-weight: 400;
-    margin-bottom: 15px;
-  }
-  
-  .contentContainer h5 {
-    color: var(--text-color);
-    font-size: 20px;
-    margin-bottom: 15px;
-  }
-  
-  .contentDescription {
-    color: var(--secondary-text-color);
-  }
-  
-  .infoContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: right;
-    margin-top: var(--spacing);
-  }
-  
-  .info {
-    padding-left: 0;
-  }
-  
-  .infoContainer span {
-    color: var(--text-color);
-  }
-  
-  .infoContainer p {
-    color: var(--secondary-text-color);
-    display: inline-block;
-    margin-left: 10px;
-    margin-bottom: 10px;
-  }
-  
-  .infoContainer a {
-    color: var(--hl-color);
-  }
-  
-  .infoContainer a:hover {
-    color: #5865f2;
-  }
-  
-  .buttonContainer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-right: var(--sm-spacing);
-  }
-  
-  .downloadCV {
-    margin-top: var(--sm-spacing);
-    margin-bottom: var(--sm-spacing);
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: var(--spacing);
+}
+
+.aboutContainer {
+  border-bottom: 1px solid var(--grey);
+}
+
+/* Layout & Alignment */
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: var(--spacing);
+}
+
+.contentContainer h4 {
+  color: var(--hl-color);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.contentContainer h5 {
+  color: var(--text-color);
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.contentDescription {
+  color: var(--secondary-text-color);
+  line-height: 1.5;
+}
+
+/* Info Section */
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: var(--spacing);
+}
+
+.info {
+  padding-left: 0;
+}
+
+.infoContainer span {
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.infoContainer p {
+  color: var(--secondary-text-color);
+  display: inline-block;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.infoContainer a {
+  color: var(--hl-color);
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+.infoContainer a:hover {
+  color: #5865f2;
+}
+
+/* Button Styling */
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: var(--sm-spacing);
+}
+
+.downloadCV {
+  margin: var(--sm-spacing) 0;
+}
+
+/* Social Icons */
+.about .socialIcons .icon {
+  display: none;
+}
+
+@media (min-width: 750px) {
   .about .socialIcons .icon {
-    display: none;
-  }
-  
-  @media (min-width: 750px) {
-    .about .socialIcons .icon {
       display: inline;
-    }
-  
-    .about .socialIcons::before {
+  }
+
+  .about .socialIcons::before {
       background-color: var(--grey);
       content: "";
       height: 2px;
@@ -107,22 +102,23 @@
       display: inline-block;
       margin-bottom: 5px;
       margin-right: 10px;
-    }
   }
-/*   
-  @media (min-width: 992px) {
-    .personalImage img {
+}
+
+/* Larger Screens */
+@media (min-width: 992px) {
+  .personalImage img {
       height: 330px;
       z-index: 50;
-      border-radius: 0;
+      border-radius: 8px;
       padding: 6px;
-    }
-  
-    .personalImage {
+      border: 1px solid var(--grey);
+  }
+
+  .personalImage {
       height: 330px;
-  
       display: flex;
       align-items: center;
       justify-content: center;
-    }
-  } */
+  }
+}
