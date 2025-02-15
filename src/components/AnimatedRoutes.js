@@ -2,7 +2,7 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import React from 'react';
 
 import Landing from "../pages/landing/Landing";
-import About from "../pages/about/About";
+import About from "../pages/about/about";
 import Portfolio from "../pages/portfolio/Portfolio";
 import Contact from "../pages/contact/Contact";
 
