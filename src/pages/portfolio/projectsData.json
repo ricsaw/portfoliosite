@@ -4,7 +4,7 @@
       "image": "https://i.imgur.com/TI3QSLd.png",
       "description": "This is an application that recieves the ticker from the user and predicts the future price of the stock using a machine learning model. The model is trained on the historical data of the stock. The user can also see the historical data of the stock in the form of a candlestick chart.",
       "technologies": "Python | Pandas | Numpy",
-      "github": "https://github.com/ricsaw/prediction-tool1",
+      "github": "https://github.com/ricsaw/predictionToolv2",
       "bgcolor": "#f37737",
       "id": "1"
     },
