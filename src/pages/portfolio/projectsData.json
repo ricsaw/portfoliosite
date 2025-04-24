@@ -1,7 +1,7 @@
 [
     {
       "title": "Stock Dashboard",
-      "image": "https://i.imgur.com/LZRZcFs.jpg",
+      "image": "https://i.imgur.com/a/xfFkofp",
       "description": "This project is a stock data visualization tool built with React. It allows users to view stock price movements, trading volume, and moving averages (50-hour and 200-hour) over customizable date ranges and intervals. Features include dynamic ticker input, resizable interactive charts, and responsive design for different devices. The app helps users analyze stock performance and trends efficiently.",
       "technologies": "Node | Flask | API | React",
       "github": "https://smart-signals-phi.vercel.app/",
